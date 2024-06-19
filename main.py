@@ -23,14 +23,14 @@ class Solution:
                 count.add(index)
 
 
-Time Complexity: O(n)
-Since the "if" check and the "add" operation are both O(1) and they are performed once for each of the 𝑛 elements, the total time complexity is O(1).
+# Time Complexity: O(n)
+# Since the "if" check and the "add" operation are both O(1) and they are performed once for each of the 𝑛 elements, the total time complexity is O(1).
 
 
-Space Complexity: O(n)
-Storage for the set (count):
+# Space Complexity: O(n)
+# Storage for the set (count):
 
-In the worst case, if all elements in the list are unique, the set will store all 𝑛 elements. Therefore, the space complexity for the set is O(n)
-Additional variables:
-The only other variable used is "index", which takes O(1) space.
-Combining these, the overall space complexity is dominated by the space needed to store the elements in the set, which is: O(n)
+# In the worst case, if all elements in the list are unique, the set will store all 𝑛 elements. Therefore, the space complexity for the set is O(n)
+# Additional variables:
+# The only other variable used is "index", which takes O(1) space.
+# Combining these, the overall space complexity is dominated by the space needed to store the elements in the set, which is: O(n)
